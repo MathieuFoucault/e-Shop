@@ -7,8 +7,6 @@ export default function ArticlesFilters({
 }) {
   const handleClick = (value: string) => setCurrentCategory(value);
 
-  console.log(categories);
-
   return (
     <section className="flex justify-center gap-4">
       <button
